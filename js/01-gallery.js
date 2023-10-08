@@ -18,7 +18,6 @@ const markup = galleryItems
   )
   .join("");
 container.insertAdjacentHTML("afterbegin", markup);
-const link = document.querySelectorAll(".gallery__link");
 container.addEventListener("click", handlerClick);
 function handlerClick(evt) {
   evt.preventDefault();
