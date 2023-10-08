@@ -7,7 +7,7 @@ const markup = (arr) => {
       ({ preview, original, description }) => `
         <li class="gallery__item">
             <a class="gallery__link" href="${preview}">
-                <img class="gallery__image" src="${original}" alt="${description}" />
+                <img class="gallery__image" src="${original}" alt="${description}" loading="lazy"/>
             </a>
         </li>`
     )
